@@ -310,6 +310,48 @@ footer img {
   body {
     font-size: 18px;
   }
+
+  .grid {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .leading {
+    margin: 20px 0;
+  }
+
+  .site-nav {
+    padding: 0 20px;
+  }
+
+  .site-nav h1 {
+    grid-column: 1/3;
+  }
+
+  .site-nav ul {
+    grid-column: 6/9;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+  }
+
+  .site-nav ul li {
+    margin-left: 20px;
+  }
+
+  .site-nav ul li a:hover {
+    color: #dddbff;
+  }
+
+  #welcome {
+    padding-bottom: 40px;
+  }
+  
+  #welcome .welcome-text {
+    align-self: center;
+  }
+
 }
 
 /* desktop styles */

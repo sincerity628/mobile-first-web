@@ -60,7 +60,7 @@ body {
 
 ---
 
-#### :writing_hand: about the font size (different devices have different font size)
+#### :writing_hand: about the font size (different devices have different font sizes)
 ```css
 /* initially, the default font size is 16px */
 body {
