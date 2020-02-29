@@ -1,5 +1,68 @@
+/* variales */
+:root {
+  --primary-color: #ffc636;
+  --secondary-color: #0a0b5b;
+}
 
+/* reset */
+* {
+  box-sizing: border-box;
+}
+
+body, a, p, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* base styles */
+body {
+  background-color: var(--secondary-color);
+  overflow-x: hidden;
+}
+
+.button {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  color: #333;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  color: #f2f2f2;
+  border: 2px solid #9893d8;
+  border-radius: 20px;
+}
+
+.button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
 /* mobile styles */
+
 
 /* small tablets styles */
 @media screen and (min-width: 620px) {}
