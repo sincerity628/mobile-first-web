@@ -98,7 +98,7 @@ h4 {
   font-size: 1.1em;
 }
 
-.leadgin {
+.leading {
   font-size: 1.1em;
 }
 
@@ -154,6 +154,7 @@ h4 {
 }
 
 #porfolio h3 {
+  margin: 0;
   text-align: center;
 }
 
@@ -169,7 +170,7 @@ h4 {
   margin: 0 20px;
 }
 
-.projects h4 {
+#porfolio .projects h4 {
   color: #9994f7;
 }
 
@@ -258,6 +259,49 @@ footer img {
 @media screen and (min-width: 620px) {
   body {
     font-size: 16px;
+  }
+
+  #welcome .welcome-text {
+    grid-column: 1/5;
+  }
+
+  #welcome .welcome-img {
+    grid-column: 5/9;
+  }
+
+  #welcome .welcome-img img {
+    width: 100%;
+  }
+
+  .projects {
+    margin-top: 40px;
+  }
+
+  .projects a {
+    grid-column: span 4;
+    display: block;
+    margin: 20px 0;
+  }
+
+  .projects a:last-child {
+    grid-column: 3/7;
+  }
+
+  .projects a * {
+    max-width: 60%;
+    margin: 10px 20%;
+  }
+
+  .projects h4 {
+    text-align: center;
+  }
+
+  #skills {
+    padding: 20px 100px;
+  }
+
+  footer {
+    background-size: 20%;
   }
 }
 
