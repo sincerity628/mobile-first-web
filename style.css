@@ -1,4 +1,4 @@
-/* variales */
+/* variables */
 :root {
   --primary-color: #ffc636;
   --secondary-color: #0a0b5b;
@@ -13,6 +13,7 @@ body, a, p, ul, li {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: 'Rubik Regular', sans-serif;
 }
 
 li {
@@ -61,14 +62,58 @@ input:focus,
 textarea:focus {
   outline: none;
 }
+
+/* text */
+@font-face {
+  font-family: 'Rubik Regular';
+  src: url('./assets/fonts/Rubik-Regular.ttf');
+}
+
+h1, h2, h3, h4 {
+  color: #dddbff;
+  font-weight: normal;
+}
+
+p, a, li {
+  color: #9893d8;
+}
+
+h1, h3 {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+.leadgin {
+  font-size: 1.1em;
+}
+
 /* mobile styles */
 
 
 /* small tablets styles */
-@media screen and (min-width: 620px) {}
+@media screen and (min-width: 620px) {
+  body {
+    font-size: 16px;
+  }
+}
 
 /* large screen & laptop styles */
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+}
 
 /* desktop styles */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
