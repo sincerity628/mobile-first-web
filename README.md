@@ -41,7 +41,7 @@ body {
 }
 ```
 
-- method three(can be the custom font) :
+- method three (can be the custom font) :
 ```css
 /* use the font */
 body {
@@ -52,7 +52,7 @@ body {
 /* font declare */
 @font-face {
   /* the name of the font */
-  font-family: Rubik Regular';
+  font-family: 'Rubik Regular';
   /* the source of the font file */
   src: url('./assets/fonts/Rubik-Regular.ttf');
 }
@@ -60,7 +60,7 @@ body {
 
 ---
 
-#### :writing_hand: about the font size
+#### :writing_hand: about the font size (different devices have different font size)
 ```css
 /* initially, the default font size is 16px */
 body {
