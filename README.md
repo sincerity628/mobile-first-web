@@ -109,3 +109,8 @@ h4 {
   }
 }
 ```
+
+---
+
+#### :writing_hand: grid system
+![12-grid](./assets/screen-shots/grid.png)
